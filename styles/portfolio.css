@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    background: #FFF8F3;
+    background-image: url("../images/header_bg.png"), url("../images/developer.png");
+    background-repeat: no-repeat;
+    background-position: right bottom, left;
+}
+
+/* nav-bar style */
+.nav-title {
+    font-weight: 800px;
+    font-size: 45px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+nav li {
+    display: flex;
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.butt-primary {
+    width: 200px;
+    height: 64px;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.banner {
+
+    margin: 0px 200px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.banner-intro {
+    color: #474747;
+    font-weight: 600;
+    font-size: 45px;
+    width: 177px;
+    height: 61px;
+    margin-bottom: 20px;
+}
+
+.banner-more {
+    color: #181818;
+    font-weight: 700;
+    font-size: 85px;
+    margin-bottom: 5px;
+
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 30px;
+
+    color: #757575;
+
+}
+
+/* main style  */
+main {
+    width: 1140px;
+    height: 550px;
+    left: 230px;
+    top: 967px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    color: #181818;
+    margin-bottom: 30px;
+
+}
+
+.section-description {
+    font-weight: 400;
+    font-size: 18px;
+    width: 827px;
+    height: 120px;
+    text-align: center;
+    color: #757575;
+
+
+}
+.about{
+    text-align: center;
+    border-radius: 10px;
+    padding: 130px 150px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.info-title{
+    font-size: 20px;
+    color: #757575;
+
+}
+.info-description{
+    font-size: 20px;
+    color: #474747;
+    ont-weight: 700;
+
+
+}
